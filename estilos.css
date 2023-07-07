@@ -1,0 +1,141 @@
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    color: fuchsia !important;
+    text-shadow: 0 0 5px fuchsia;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler i{
+    color: fuchsia !important;
+}
+.nav-link{
+    color: fuchsia !important;
+    padding: 10px;
+}
+.nav-link:hover{
+    background-color: fuchsia;
+    color: black !important;
+    padding: 10px;
+}
+.jumbotron{
+    background-image: url(multimedia/imagenwallTRANSP.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 0 0 5px fuchsia;
+    text-align: center;
+    margin-bottom: 0;
+    height: 250px;
+}
+.call{
+    display: grid;
+    place-items: center;
+}
+.background{
+    height: 600px;
+    text-align: center;
+}
+h1{
+    color: fuchsia;
+}
+.title{
+    font-size: 80px;
+    padding-top: 180px;
+}
+.text{
+    font-size: x-large;
+}
+.btn-dark{
+    background-color: black;
+    width: 150px;
+}
+.btn-dark:hover{
+    background-color: fuchsia;
+    color: black;
+    
+}
+h2{
+    background-color: black;
+    color: fuchsia;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 0;
+    border: none;
+    text-decoration: none;
+}
+.title2{
+    font-size: 60px;
+    text-align: center;
+}
+.parrafo{
+    font-size: 20px;
+    text-align: center;
+}
+.h2h2{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: rgb(190, 140, 190);
+    color: black;
+}
+.nleft{
+    background-image: url(multimedia/nailsclub2.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.nright{
+    background-image:url(multimedia/nailsclub5.png) ;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.imageleft{
+    background-image: url(multimedia/nailsclub19.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.container-fluid{
+    background-color: black;
+    color: rgb(102, 102, 102);
+    padding: 10vh
+}
+.carousel-inner{
+    display: grid;
+    justify-content: center;
+    background-color: black;
+    padding: 5vh;
+}
+.estilos-img{
+    width: 100%;
+    padding-bottom: 2vh;
+    background-color: black;
+}
+.centrar{
+    background-image: url(multimedia/manicura.short.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.ubicación{
+    margin-bottom: 0;
+}
+.spotify{
+    background-image: url(multimedia/glitter.jpeg);
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 7px;
+    padding-bottom: 5vh;
+    margin-bottom: 0;
+}
+footer{
+    background-color: rgb(190, 140, 190);
+    text-align: center;
+}
+.icon{
+    padding: 10px;
+}
