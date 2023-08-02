@@ -1,141 +1,235 @@
-.navbar{
-    background-color: black;
+body {
+  background-color: #000000;
 }
-.navbar-brand{
-    color: fuchsia !important;
-    text-shadow: 0 0 5px fuchsia;
+
+.navbar {
+  background-color: #000000;
 }
-.navbar-toggler{
-    border: none;
+
+.navbar-brand {
+  color: #ff00d3 !important;
+  text-shadow: 0 0 5px #ff00d3;
 }
-.navbar-toggler i{
-    color: fuchsia !important;
+
+.navbar-toggler {
+  border: none;
 }
-.nav-link{
-    color: fuchsia !important;
-    padding: 10px;
+
+.navbar-toggler i {
+  color: #ff00d3 !important;
 }
-.nav-link:hover{
-    background-color: fuchsia;
-    color: black !important;
-    padding: 10px;
+
+.nav-link {
+  color: #ff00d3 !important;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
 }
-.jumbotron{
-    background-image: url(multimedia/imagenwallTRANSP.png);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-shadow: 0 0 5px fuchsia;
-    text-align: center;
-    margin-bottom: 0;
-    height: 250px;
+
+.nav-link:hover {
+  background-color: #ff00d3;
+  color: #000000 !important;
+  padding: 15px;
+  transition: 1s;
+  border-radius: 3%;
 }
-.call{
-    display: grid;
-    place-items: center;
+
+.jumbotron {
+  background-color: #ff00d3;
+  background-position: center;
+  background-size: cover;
 }
-.background{
-    height: 600px;
-    text-align: center;
+
+.btn {
+  background-color: #000000;
+  background-position: center;
+  border-color: #ff00d3;
+  color: #ff00d3;
+  text-decoration: none;
+  padding: 10px;
 }
-h1{
-    color: fuchsia;
+
+.btn:hover {
+  background-color: #ff00d3;
+  border-color: #ff00d3;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.6s;
 }
-.title{
-    font-size: 80px;
-    padding-top: 180px;
+
+.buttonp {
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 15px;
+  padding-right: 20vh;
 }
-.text{
-    font-size: x-large;
+
+h1 {
+  color: #ff00d3;
+  text-align: center;
+  background-color: #000000;
+  padding: 8vh;
+  margin-bottom: 0;
 }
-.btn-dark{
-    background-color: black;
-    width: 150px;
+
+.form-group {
+  color: #ff00d3;
 }
-.btn-dark:hover{
-    background-color: fuchsia;
-    color: black;
-    
+
+option {
+  background-color: #000000;
+  color: #ff00d3;
 }
-h2{
-    background-color: black;
-    color: fuchsia;
-    text-align: center;
-    padding: 40px;
-    margin-bottom: 0;
-    border: none;
-    text-decoration: none;
+
+.img-sobremi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  max-width: 500px;
+  min-width: 200px;
+  margin: auto;
 }
-.title2{
-    font-size: 60px;
-    text-align: center;
+
+.textme {
+  color: #ff8df0;
+  text-align: center;
 }
-.parrafo{
-    font-size: 20px;
-    text-align: center;
+
+.bannerpages {
+  background-image: url(multimedia/imagenwallTRANSP.png);
+  background-size: cover;
+  background-position: center;
 }
-.h2h2{
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 0;
-    background-color: rgb(190, 140, 190);
-    color: black;
+
+.call {
+  display: grid;
+  place-items: center;
 }
-.nleft{
-    background-image: url(multimedia/nailsclub2.png);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+
+.background {
+  height: 600px;
+  text-align: center;
 }
-.nright{
-    background-image:url(multimedia/nailsclub5.png) ;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+
+.title {
+  font-size: 80px;
+  padding-top: 180px;
 }
-.imageleft{
-    background-image: url(multimedia/nailsclub19.png);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+
+.text {
+  font-size: x-large;
 }
-.container-fluid{
-    background-color: black;
-    color: rgb(102, 102, 102);
-    padding: 10vh
+
+.btn-dark {
+  background-color: #000000;
+  width: 150px;
 }
-.carousel-inner{
-    display: grid;
-    justify-content: center;
-    background-color: black;
-    padding: 5vh;
+
+.btn-dark:hover {
+  background-color: #ff00d3;
+  color: #000000;
 }
-.estilos-img{
-    width: 100%;
-    padding-bottom: 2vh;
-    background-color: black;
+
+h2 {
+  background-color: #000000;
+  color: #ff00d3;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 0;
+  border: none;
+  text-decoration: none;
 }
-.centrar{
-    background-image: url(multimedia/manicura.short.png);
-    background-position: center;
-    background-size: cover;
-    height: 400px;
+
+.title2 {
+  font-size: 60px;
+  text-align: center;
 }
-.ubicación{
-    margin-bottom: 0;
+
+.parrafo {
+  font-size: 20px;
+  text-align: center;
 }
-.spotify{
-    background-image: url(multimedia/glitter.jpeg);
-    color: black;
-    text-align: center;
-    text-shadow: 0 0 7px;
-    padding-bottom: 5vh;
-    margin-bottom: 0;
+
+.h2h2 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+  background-color: #ff00d3;
+  color: #000000;
 }
-footer{
-    background-color: rgb(190, 140, 190);
-    text-align: center;
+
+.imageleft {
+  max-width: 100%;
+  width: 200px;
 }
-.icon{
-    padding: 10px;
+
+.container-fluid {
+  margin: auto;
+  padding: 50px;
 }
+
+.carousel-inner {
+  display: grid;
+  justify-content: center;
+  background-color: black;
+  padding: 5vh;
+}
+
+.estilos-img {
+  width: 100%;
+  padding-bottom: 2vh;
+  background-color: black;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.galeria {
+  width: 100%;
+}
+
+.card {
+  background-color: #000000;
+  border-color: #ff8df0;
+  color: #ff8df0;
+  text-align: center;
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 200px;
+  max-width: 900px;
+  min-width: 200px;
+  margin: auto;
+}
+
+.spotify {
+  padding: 2vh;
+}
+
+.img-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  max-width: 500px;
+  min-width: 200px;
+  margin: auto;
+}
+
+footer {
+  background-image: linear-gradient(0deg, #000000 0%, #ff00d3 62%);
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */

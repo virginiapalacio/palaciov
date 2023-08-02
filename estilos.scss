@@ -1,0 +1,232 @@
+//paleta de colores
+$color1: #ff00d3;
+$color2: #000000;
+$color3: #ff8df0;
+
+body {
+    background-color: $color2;
+}
+
+.navbar {
+    background-color: $color2;
+}
+
+.navbar-brand {
+    color: $color1 !important;
+    text-shadow: 0 0 5px $color1;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler i {
+    color: $color1 !important;
+}
+
+.nav-link {
+    color: $color1 !important;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: $color1;
+    color: $color2 !important;
+    padding: 15px;
+    transition: 1s;
+    border-radius: 3%;
+}
+
+.jumbotron {
+    background-color: #ff00d3;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn {
+    background-color: $color2;
+    background-position: center;
+    border-color: $color1;
+    color: $color1;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.btn:hover {
+    background-color: $color1;
+    border-color: $color1;
+    color: $color2;
+    text-decoration: none;
+    transition: .6s;
+}
+.buttonp{
+    background-color: $color2;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+    padding-right: 20vh;
+}
+h1 {
+    color: $color1;
+    text-align: center;
+    background-color: $color2;
+    padding: 8vh;
+    margin-bottom: 0;
+}
+.form-group{
+    color: $color1;
+}
+option{
+    background-color: $color2;
+    color: $color1;
+}
+.img-sobremi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto; 
+}
+.textme{
+    color: $color3;
+    text-align: center;
+
+}
+.bannerpages {
+    background-image: url(multimedia/imagenwallTRANSP.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.call {
+    display: grid;
+    place-items: center;
+}
+
+.background {
+    height: 600px;
+    text-align: center;
+}
+
+.title {
+    font-size: 80px;
+    padding-top: 180px;
+}
+
+.text {
+    font-size: x-large;
+}
+
+.btn-dark {
+    background-color: $color2;
+    width: 150px;
+}
+
+.btn-dark:hover {
+    background-color: $color1;
+    color: $color2;
+
+}
+
+h2 {
+    background-color: $color2;
+    color: $color1;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 0;
+    border: none;
+    text-decoration: none;
+}
+
+.title2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.parrafo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.h2h2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: $color1;
+    color: $color2;
+}
+
+.imageleft {
+    max-width: 100%;
+    width: 200px;
+}
+
+.container-fluid {
+    margin: auto;
+    padding: 50px;
+}
+
+.carousel-inner {
+    display: grid;
+    justify-content: center;
+    background-color: black;
+    padding: 5vh;
+}
+
+.estilos-img {
+    width: 100%;
+    padding-bottom: 2vh;
+    background-color: black;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.galeria {
+    width: 100%;
+}
+
+.card{
+    background-color: $color2;
+    border-color: $color3;
+    color: $color3;
+    text-align: center;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 200px;
+    max-width: 900px;
+    min-width: 200px;
+    margin: auto;
+}
+.spotify {
+    padding: 2vh;
+
+}
+.img-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto; 
+}
+footer {
+    background-image: linear-gradient(0deg, #000000 0%, #ff00d3 62%);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: white;
+}
